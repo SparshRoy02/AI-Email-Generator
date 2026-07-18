@@ -149,7 +149,7 @@ Node.js is the JavaScript runtime needed to run both the backend server and the 
    npm -v
    # Should print: 9.x.x or higher
    ```
-   > ⚠️ If `node` or `npm` is not recognized, restart your terminal (or PC) after installation.
+   >  If `node` or `npm` is not recognized, restart your terminal (or PC) after installation.
 
 ---
 
@@ -294,11 +294,11 @@ npm run dev
 **f) Confirm the backend is running correctly.** You should see output like this:
 ```
 [nodemon] starting `node src/index.js`
-🚀 Server running on port 5000
-✅ MongoDB Connected: 127.0.0.1
+ Server running on port 5000
+ MongoDB Connected: 127.0.0.1
 ```
 
-> ✅ **Keep this terminal open and running** throughout your session.
+>  **Keep this terminal open and running** throughout your session.
 
 ---
 
@@ -398,7 +398,7 @@ Base URL: `http://localhost:5000`
 
 | Field | Type | Required | Options |
 |---|---|---|---|
-| `prompt` | `string` | ✅ Yes | Any text description |
+| `prompt` | `string` |  Yes | Any text description |
 | `tone` | `string` | No | `formal`, `casual`, `friendly`, `apologetic` |
 | `length` | `string` | No | `short`, `medium`, `long` |
 | `recipient` | `string` | No | Recipient's name |
@@ -473,33 +473,3 @@ User clicks "Save"
 **AI Email Generator** demonstrates how powerful, privacy-first AI applications can be built entirely on open-source tools — without relying on paid APIs or sending your data to the cloud.
 
 Whether you're writing a formal business proposal, a casual follow-up, or a heartfelt apology, this app helps you communicate better and faster. It's a solid foundation you can extend with new AI models, additional email templates, user authentication, or export features.
-
-> **Tip:** The more specific your prompt, the better the output. Include details like the recipient's role, the email's purpose, and any relevant context — Llama 3 will tailor the result accordingly.
-
----
-
-## Contributing
-
-Contributions are welcome! Here's how:
-
-1. **Fork** the repository.
-2. **Create** a feature branch: `git checkout -b feature/your-feature-name`
-3. **Commit** your changes: `git commit -m "feat: describe your change"`
-4. **Push** the branch: `git push origin feature/your-feature-name`
-5. **Open a Pull Request** describing what changed and why.
-
-Found a bug or have a feature idea? Open an issue on GitHub.
-
----
-
-## License
-
-This project is licensed under the MIT License — free to use, modify, and distribute.
-
----
-
-<div align="center">
-  <p>Built with love using <strong>React</strong>, <strong>Node.js</strong>, <strong>MongoDB</strong> and <strong>Ollama Llama 3</strong></p>
-  <p>If you found this project useful, consider giving it a star on GitHub!</p>
-</div>
-
